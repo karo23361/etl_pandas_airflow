@@ -48,8 +48,8 @@ Inside the `dags/` folder, the file `etl_dag.py` defines a DAG with the followin
   2. *load* – save final output CSV to a target folder (e.g., `data`)
 - The pipeline runs automatically based on a defined schedule (e.g., daily)
 
-**📌 Placeholder for DAG diagram:**  
-![Airflow DAG] ![image](https://github.com/user-attachments/assets/9b9b593c-f9a6-43c5-8ff9-9c82139d7e2a)
+**📌 DAG diagram:**  
+![image](https://github.com/user-attachments/assets/9b9b593c-f9a6-43c5-8ff9-9c82139d7e2a)
 
 
 ---
@@ -62,8 +62,8 @@ The final stage involves loading the cleaned data from Airflow into Power BI, wh
 - Interactive charts: lines, bars, maps
 - Filtering by region, product, category
 
-**📌 Placeholder for Power BI dashboard:**  
-![Power BI Dashboard] ![image](https://github.com/user-attachments/assets/6f0aa0b6-82f8-48c7-8b9f-5a7fa9045486)
+**📌 Power BI dashboard:**  
+![image](https://github.com/user-attachments/assets/6f0aa0b6-82f8-48c7-8b9f-5a7fa9045486)
 
 
 ---
