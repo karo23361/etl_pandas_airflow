@@ -77,7 +77,7 @@ The final stage involves loading the cleaned data from Airflow into Power BI, wh
 ```
 
 2. **Access Airflow UI:**  
-   Go to [http://localhost:8080](http://localhost:8080), trigger the DAG, check logs and outputs in the `data/clean` folder.
+   Go to [http://localhost:8080](http://localhost:8080), trigger the DAG, check logs and outputs in the `data` folder.
 
 3. **Load data into Power BI Desktop:**  
    Import the output CSV from `data`, refresh the source, and build your dashboard.
