@@ -58,9 +58,32 @@ Inside the `dags/` folder, the file `etl_dag.py` defines a DAG with the followin
 
 The final stage involves loading the cleaned data from Airflow into Power BI, where a dashboard is created with:
 
-- Sales metrics: daily, monthly, seasonal comparisons
-- Interactive charts: lines, bars, maps
-- Filtering by region, product, category
+- **Total Sales**
+  - Displays the cumulative revenue for the dataset.
+  - Example: **88.51k PLN**
+
+- **Total Items Sold**
+  - Shows the total number of units sold across all products.
+  - Example: **29.97k items**
+
+- **Monthly Revenue vs. Target (KPI)**
+  - KPI visualization comparing monthly revenue with a defined target.
+  - Includes actual value and deviation from the goal.
+  - Example: **7.52k PLN**, target was **7.26k PLN** (**+3.55%**)
+
+- **Items Sold per Month**
+  - Line chart showing number of items sold each month from January to December.
+  - Highlights trends and seasonality in sales volume.
+
+- **Total Product Sales (by Revenue)**
+  - Horizontal bar chart ranking products by total sales value.
+  - Example: Top-selling product by revenue: **Salad (19.1k PLN)**
+
+- **Total Items Sold (by Quantity)**
+  - Vertical bar chart comparing total quantity sold by product.
+  - Example: Most sold item by quantity: **Juice (4.2k items)**
+
+---
 
 **📌 Power BI dashboard:**  
 ![image](https://github.com/user-attachments/assets/6f0aa0b6-82f8-48c7-8b9f-5a7fa9045486)
